@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=Lilita+One&family=Montserrat+Alternates:wght@600&family=Paytone+One&family=Schibsted+Grotesk&display=swap");
+/* 
+font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Schibsted Grotesk', sans-serif; */
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+* li {
+  list-style-type: none;
+}
+* a {
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(65deg, #aeaecd, #acacea, #6092e4);
+}
+
+main > div > div > section > input {
+  height: 45px;
+  transition: 1s;
+  outline: none;
+  border: none;
+  border: 1px solid #4d4a4a;
+  border-radius: 10px;
+}
+main > div > section:nth-of-type(1) > ul > li {
+  cursor: pointer;
+}
+main > div > section:nth-of-type(2) > ul > li {
+  width: 270px !important;
+  transition: 0.4s;
+  margin: 10px;
+}
+main > div > section:nth-of-type(2) > ul > li > figure {
+  width: 100% !important;
+  height: 100%;
+  transition: 0.4s;
+  background-color: #FAFAFA;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > img {
+  top: 0;
+  left: 0;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > figcaption > div > span {
+  color: #6092e4;
+  font-size: 27px;
+  margin: 7px;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > figcaption > div > span:nth-of-type(6) {
+  display: none !important;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > figcaption > p, main > div > section:nth-of-type(2) > ul > li > figure > figcaption span {
+  color: #000;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > figcaption > span {
+  padding-bottom: 10px;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > figcaption > section {
+  top: 0;
+  right: 10px;
+  transform: translateX(100%);
+  transition: 0.4s;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > figcaption > section > span {
+  font-size: 27px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+main > div > section:nth-of-type(2) > ul > li > figure > figcaption > section > span:hover {
+  color: #f1810a;
+}
+
+.show {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.hid {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+._star-bg {
+  color: #e9c304;
+}/*# sourceMappingURL=style.css.map */
